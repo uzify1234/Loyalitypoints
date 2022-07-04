@@ -1,0 +1,67 @@
+.login
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.loginregion
+{
+    width: 30vw;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+
+}
+
+.loginregion h4
+{
+    color: white;
+    text-align: center;
+
+}
+
+.loginregion input
+{
+    padding: 7px;
+    margin : 7px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}
+
+.loginregion button
+{
+    padding: 7px;
+    margin : 7px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .loginregion
+    {
+        width: 80vw;
+    }
+    .loginregion h4
+    {
+        font-size: 1.3rem;
+    }
+    .loginregion input
+    {
+        padding: 13px;
+        font-size: 1.3rem;
+    }
+    .loginregion button
+    {
+        padding: 13px;
+        font-size: 1.5rem;
+    }
+
+}

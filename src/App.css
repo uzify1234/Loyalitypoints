@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
+  padding: 20px;
+  text-align: left;
+}
+.App .part
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.App .part button
+{
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-right: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.users .eachuserdetails
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 0px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+.users .eachuserdetails .part
+{
+  width: 20%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.users .eachuserdetails .last
+{
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.users .eachuserdetails .last button
+{
+  margin : 10px;
+}
+.users .eachuserdetails h3
+{
+  font-size: 0.9rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.users .eachuserdetails h4
+{
+  margin: 5px;
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 0px;
+  color: #333;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 768px) {
+  .users
+  {
+    overflow: scroll;
   }
-  to {
-    transform: rotate(360deg);
+  .users .eachuserdetails
+  {
+    min-width: 120vw;
   }
+
 }

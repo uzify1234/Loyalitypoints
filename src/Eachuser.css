@@ -1,0 +1,74 @@
+.eachuser .part
+{
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.eachuser .part button
+{
+    margin-right: 30px;
+}
+.eachuser .part h3
+{
+    margin: 5px;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.eachuser .part h4
+{
+    margin: 5px;
+    font-size: 1.0rem;
+}
+.pointladder
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input[type="date"]
+{
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sharelink
+{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.sharelink div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sharelink div button
+{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .sharelink
+    {
+        min-width: 200vw;
+    }
+    .pointladder
+    {
+        min-width: 150vw;
+    }
+
+}
